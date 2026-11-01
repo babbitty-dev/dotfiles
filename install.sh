@@ -23,6 +23,7 @@ link "$DOTFILES/git/config"            ~/.config/git/config
 link "$DOTFILES/starship.toml"         ~/.config/starship.toml
 link "$DOTFILES/sheldon/plugins.toml"  ~/.config/sheldon/plugins.toml
 link "$DOTFILES/mise/config.toml"      ~/.config/mise/config.toml
+link "$DOTFILES/iterm2/tokyo-night.json" "$HOME/Library/Application Support/iTerm2/DynamicProfiles/tokyo-night.json"
 
 # git の個人情報用ファイル（dotfiles には含めない）。無ければ雛形を作る
 if [ ! -f ~/.gitconfig.local ]; then

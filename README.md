@@ -24,6 +24,7 @@ $ ~/dotfiles/install.sh
 | starship.toml | ~/.config/starship.toml |
 | sheldon/plugins.toml | ~/.config/sheldon/plugins.toml |
 | mise/config.toml | ~/.config/mise/config.toml |
+| iterm2/tokyo-night.json | ~/Library/Application Support/iTerm2/DynamicProfiles/tokyo-night.json |
 
 アプリとパッケージは `Brewfile` で管理しています（`brew bundle`）。
 
